@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pin pad</title>
+    <link rel="stylesheet" href="pin.css">
+</head>
+<body>
+    <h2 class="text-center">Pin Pad</h2>
+    <div class="container">
+        <div class="card">
+            <div class="card-header">
+                <input type="password" 
+                id="pinpad-input">
+            </div>
+           <div>
+            <div class="row">
+                <button type="button" class="pinpad-btn" value="2">2</button>
+                <button type="button" class="pinpad-btn" value="1">1</button>
+                <button type="button" class="pinpad-btn" value="3">3</button>
+            </div>
+            <div class="row">
+                <button type="button" 
+                class="pinpad-btn" value="4">4</button>
+
+                <button type="button" class="pinpad-btn" value="5">5</button>
+
+                <button type="button" class="pinpad-btn" value="6">6</button>
+
+            </div>
+            <div class="row">
+                <button type="button" class="pinpad-btn" value="7">7</button>
+
+                <button type="button" class="pinpad-btn" value="8">8</button>
+
+                <button type="button" class="pinpad-btn" value="9">9</button>
+            </div>
+            
+
+            <div class="row">
+                <button type="button" class="pinpad-btn" value="delete" id="delete-btn">del</button>
+              
+                <button type="button" class="pinpad-btn" value="0">0</button>
+
+                <button type="button" class="pinpad-btn" value="ok" id="submit-btn"> ok</button>
+            </div>
+
+           </div> 
+        </div>
+        <div id="model" class="model">
+            <div class="model-body">
+                <span id="close">X</span>
+                <p id="result"></p>
+            </div>
+        </div>
+    </div>
+    <script src="pin.js"></script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form id="frm1" action="/clouds.png">
+        
+        <button id="btn1" name="pohtoL" type="submit" value="html">pohtoL</button>
+    </form>
+    <p>
+        click the try it button to display the name of the html button:
+    </p>
+    <button onclick="myFunction()">Try It</button>
+    <p id="demo"></p>
+    <script>
+        function myFunction(){
+            let x=documnet.getElementById("btn1").name;
+
+            document.getElementById("demo").innerHTML=x;
+        }
+
+    </script>
+</body>
+</html>

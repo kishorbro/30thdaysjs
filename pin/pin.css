@@ -1,0 +1,68 @@
+/*style.css*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Courier, monospace;
+}
+
+.text-center{
+    text-align: center;
+    color: rgb(199, 156, 27);
+    font-size: xx-large;
+    font-weight: 900;
+
+}
+.container{
+    width: 100%;
+}
+.card{
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 30%;
+    margin-bottom: auto;
+    display: flex;
+    flex-direction: column;
+
+
+
+}
+.card-header{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    text-align: center;
+}
+.row{
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+.pinpad-btn{
+    width: 25%;
+    height:75px ;
+    margin: 10px;
+    padding: 10px;
+    border-radius:1px solid black ;
+    font-size: 2rem;
+
+    display: flex;
+    justify-content:center ;
+    align-items:center ;
+    cursor: pointer;
+    background-color: white;
+   font-weight: 300;
+   text-decoration: solid;
+   color: blue;
+}
+.pinpad-btn:hover{
+    background-color: rgb(13, 215, 218);
+}
+#pinpad-input{
+    border-radius: 10px;
+    height: 1.5rem;
+    font-size: 1.5rem;
+    text-align: center;
+    width: 80%;
+}
+
